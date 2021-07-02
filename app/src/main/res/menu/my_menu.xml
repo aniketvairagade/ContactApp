@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ico_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/call"
+        android:title="Call"
+        android:icon="@drawable/ico_call"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        android:icon="@drawable/ico_account"/>
+
+
+</menu>
